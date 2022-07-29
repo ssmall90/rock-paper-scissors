@@ -52,7 +52,7 @@ function game (){
     for (let i = 0; i <5; i++) {
         const playerSelection = prompt('choose what to throw', 'rock,paper,scissors').toLocaleLowerCase()
         const computerSelection = computerPlay();
-        playRound(playerSelection, computerSelection);
+        console.log('1',playRound(playerSelection, computerSelection));  
     }
 
     if (playerScore > compScore) {
